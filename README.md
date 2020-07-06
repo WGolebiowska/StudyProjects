@@ -1,4 +1,1 @@
-"# StudyProjects" 
-vector<int> v = {1,2,3,4,5};
-
- v.erase(remove_if(v.begin(), v.end(), [](int x) {return x < 1 || x > 4;}), v.end());
+Some of my study projects. Strictly academic stuff but there are some pretty interesting assignmets, mostly in C++ and some basic Java, C# and Scheme. Please take a look at them, especially those C++ projects. They used to give me headaches :) You can treat them as an overview of my skills and programming style.
