@@ -39,9 +39,8 @@ public class Faculty {
                 students.infoGrades();
             }
         } else {
-            for(Student student : students){
+            for(Student student : students)
                 student.printInfo();
-            }
         }   
     }
     
@@ -52,9 +51,8 @@ public class Faculty {
                 entity.infoTutors();
             }
         } else {
-            for(Entity entity : entities){
+            for(Entity entity : entities)
                 entity.printInfo();
-            }
         }
     }
     
@@ -81,9 +79,8 @@ public class Faculty {
     
     public boolean deleteStudent(int studentID){
         for(Student student : students) {
-            if(student.getStudentID() == studentID){
+            if(student.getStudentID() == studentID)
                     return students.remove(student);
-                }
             }
         return false;
     }
@@ -91,16 +88,14 @@ public class Faculty {
     public boolean moveTutor(Tutor tutor, String currentEntity, String newEntity){
         boolean b = false;
             for(Entity entity : entities){
-                if(entity.getName() == currentEntity){
+                if(entity.getName() == currentEntity)
                     b = entity.deleteTutor(tutor);
-                }
             }
             
             if(b == true){
                 for(Entity entity : entities){
-                    if(entity.getName() == newEntity){
+                    if(entity.getName() == newEntity)
                         entity.addTutor(tutor);
-                    }
                 }
             }                
         return b;
