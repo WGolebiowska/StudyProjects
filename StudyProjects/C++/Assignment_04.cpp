@@ -15,7 +15,6 @@ Design and implement class Point with (x, y, z) coordinates. It should have foll
 - comparing size of two points
 - << and >> operators.
 
- with name, surname, age and address fields. Address should be an dynamic Address class object. Address class should have city, zipcode, street and street number fields. 
 
 Both classes should have default constructor and second constructor for initializing objects with given values of for all fields. Also they should have << operator.
 
