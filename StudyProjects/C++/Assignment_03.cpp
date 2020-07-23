@@ -5,14 +5,13 @@ using namespace std;
 /*
 ==========Assignment No. 3==========
 
-Design and implement class Person with name, surname, age and address fields. Address should be an dynamic Address class object. Address class should have city, zipcode, street and street number fields. 
-
-Both classes should have default constructor and second constructor for initializing objects with given values of for all fields. Also they should have << operator.
-
-One of these classes must have copy constructor, = operator and destructor.
-
+Design and implement class Person with name, surname, age, and address fields. The address should be a dynamic Address class object. The address class should have a city, zip code, street, and street number fields. 	 
+  
+Both classes should have a default constructor and second constructor for initializing objects with given values for all fields. Also, they should have << operator.	  
+  
+One of these classes must have copy constructor, = operator, and destructor.	 
+  
 Testing code is given (in main).
-
 */
 
 class Address{
