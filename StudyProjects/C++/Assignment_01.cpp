@@ -2,18 +2,17 @@
 using namespace std;
 
 /*
-==========Assignment No. 1==========
-
-Design and implement classes: Point, Rectangle, Prism, where:
-
-- Point has 3 coordinates (x, y, z)
-- Rectangle has width a and height b and is parallel to X-Y plane. Nodes on diagonal have coordinates (x, y, z) and (x + a, y + b, z)
-- Prism is rectagonal and has height h.
-
-All classes must have set of constructors allowing defining objects with given initial values and set of access methods for modifying field values. There should be methods for calculating area of rectangle and volume of prism.
-
+==========Assignment No. 1==========	 
+   
+Design and implement classes: Point, Rectangle, Prism, where:	 
+  
+- Point has 3 coordinates (x, y, z)	 
+- Rectangle has width a and height b and is parallel to X-Y plane. Nodes on diagonal have coordinates (x, y, z) and (x + a, y + b, z)	 
+- Prism is rectagonal and has height h.	 
+  
+All classes must have a set of constructors allowing defining objects with given initial values and set of access methods for modifying field values. There should be methods for calculating the area of the rectangle and volume of the prism.	 
+  
 Testing code is given (in main).
-
 */
 
 class Point {
