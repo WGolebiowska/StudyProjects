@@ -16,8 +16,7 @@ Design and implement class Point with (x, y, z) coordinates. It should have foll
 - << and >> operators.
 
 
-Both classes should have default constructor and second constructor for initializing objects with given values of for all fields. Also they should have << operator.
-
+Both classes should have a default constructor and second constructor for initializing objects with given values for all fields. Also, they should have << operator.
 
 Testing code is given (in main).
 
